@@ -1,0 +1,93 @@
+/*-----RESET-----*/
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style:none;
+}
+
+/*-----CONTENT-----*/
+.wrapper{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.signup{
+    width: 100%;
+    max-width: 50rem;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo__link{
+    display: inline-block;
+    background: url('/assets/imgs/logo.png');
+    height: 8.7rem;
+    width: 8.7rem;;
+    
+}
+
+.signup__title{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #222C59;
+
+    margin-top: 2.5rem;
+}
+
+/*----- class=form*/
+.form{
+    margin-top: 1.5rem;
+}
+
+.form__group{
+    margin-bottom: 2rem;
+    
+    position: relative;
+}
+
+.form__label.hide{
+    position: absolute;
+    left: 0;
+    top: 1rem;
+}
+
+.form__input-text{
+    width: 100%;
+    height: 6rem;
+    background-color: #F5F6F8;
+
+    border: .2rem solid border #EDEDF1;
+    border-radius: .8rem;
+    outline: none; /*uma borda dentro que o proprio navegador dentro */
+    
+    position: relative;
+}
+

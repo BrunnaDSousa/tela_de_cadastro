@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="./assets/css/fonts.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+
+    <title>Cadastra-se</title>
+</head>
+
+<body>  
+    <div class="wrapper"> 
+        <div class="signup">
+            <div class="logo">
+                <a class="logo__link" href="#"></a>
+            </div>
+
+            <h1 class="signup__title">Cadastra-se</h1>
+
+            <form class=form>
+                <div class="form__group">
+                    <label class="form__label hide" for="inputName">Nome</label>
+                    <input type="text" name="name" class="form__input-text" id="inputName" placeholder="Nome"/>
+                </div>
+
+                <div class="form__group">
+                    <label class="form__label hide" for="inputEmail">Email</label>
+                    <input type="email" name="email" class="form__input-text" id="inputEmail" placeholder="E-mail"/>
+                </div>
+
+                <div class="form__group hide">
+                    <label class="form__label" for="inputPassword">Senha</label>
+                    <input type="password" name="password" class="form__input-text" id="inputPassword" placeholder="Senha"/>
+
+                    <div class="requiremets">
+                        <div class="requiremets__description"></div>
+                        <ul class="requiremets__list">
+                            <li class="requiremts__item">Pelo menos uma letra maiúscula e uma letra minúscula</li>
+                            <li class="requiremts__item">Pelo menos um número</li>
+                            <li class="requiremts__item">Pelo menos 1 caracter especial</li>
+                            <li class="requiremts__item">Pelo menos 8 caracteres</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="form__group">
+                    <input type="checkbox" name="terms" class="form__input-checkbox" id="inputTerms">
+                    <label class="form__label" id="inputTerms">Concordo com os termos e política de privacidade</label>
+                </div>
+
+                <div class="form__group">
+                    <button class="form__group-submit" type="submit">Enviar</button>
+                </div>
+            </form>
+
+        </div>
+
+    </div>
+</body>
+</html>
