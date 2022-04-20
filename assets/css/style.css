@@ -73,6 +73,10 @@ ul{
     position: relative;
 }
 
+.form__groups--center{
+    text-align: center;
+}
+
 .form__label.hide{
     position: absolute;
     left: 0;
@@ -100,6 +104,18 @@ ul{
     color: #c1c6d0;
 }
 
+.form__input-text.error{
+    border-color: #D95150;
+}
+
+.form__message-error{
+    color: #D95150;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: block;
+    margin-top: .5rem;
+}
+
 /*-----ICON ----*/
 .form__input-icon {
     position: absolute;
@@ -110,6 +126,23 @@ ul{
 }
 
 /*----------*/
+.form__input-checkbox{
+    margin-right: 1.5rem;
+}
+
+.form__label{
+    font-size: 1.5rem;
+    color: #454653;
+}
+
+.form__link{
+    color: #00A9C8;
+}
+
+.form_button-submit{
+    background-color: red;
+}
+
 .requiremets{
     border-bottom: 1px solid #D9D9D9;
     padding-bottom: 1rem;
@@ -129,4 +162,34 @@ ul{
     color: #9EA4AC;
     font-size: 1.4rem;
     margin-top: .5rem;
+}
+
+.requiremts__item .fas::before{
+    content: "\f057";
+}
+
+.requiremts__item.checked{
+    color: #81BC3A;
+    font-weight: bold;
+}
+
+.requiremts__item.checked .fas::before{
+    content: "\f058";
+}
+
+
+/*-------*/
+
+.form__button-submit{
+    background-color: #00A9C8;
+    height: 5rem;
+    width: 15rem;
+    border-radius: 2.5rem;
+
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.8rem;
+
+    cursor: pointer;
+    margin-top: 2rem;
 }

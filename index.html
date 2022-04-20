@@ -23,8 +23,9 @@
             <form class=form>
                 <div class="form__group">
                     <label class="form__label hide" for="inputName">Nome</label>
-                    <input type="text" name="name" class="form__input-text" id="inputName" placeholder="Nome"/>
+                    <input type="text" name="name" class="form__input-text error" id="inputName" placeholder="Nome"/>
                     <i class="form__input-icon fas fa-user"></i>
+                    <span class="form__message-error">Campo  Obrigatório</span>
                 </div>
 
                 <div class="form__group">
@@ -43,10 +44,12 @@
                         <div class="requiremets__progress-bar"></div>
                         <div class="requiremets__description">A senha deverá ter</div>
                         <ul class="requiremets__list">
-                            <li class="requiremts__item"><i class="fas fa-circle-xmark"></i> Pelo menos uma letra maiúscula e uma letra minúscula</li>
-                            <li class="requiremts__item"><i class="fas fa-circle-xmark"></i> Pelo menos um número</li>
-                            <li class="requiremts__item"><i class="fas fa-circle-xmark"></i> Pelo menos 1 caracter especial</li>
-                            <li class="requiremts__item"><i class="fas fa-circle-xmark"></i> Pelo menos 8 caracteres</li>
+                            <li class="requiremts__item checked"><i class="fas"></i> 
+                                Pelo menos uma letra maiúscula e uma letra minúscula
+                            </li>
+                            <li class="requiremts__item checked"><i class="fas"></i> Pelo menos um número</li>
+                            <li class="requiremts__item checked"><i class="fas"></i> Pelo menos 1 caracter especial</li>
+                            <li class="requiremts__item checked"><i class="fas"></i> Pelo menos 8 caracteres</li>
                         </ul>
                     </div>
 
@@ -57,8 +60,8 @@
                     <label class="form__label" id="inputTerms">Concordo com os <a class="form__link" href="/">termos</a> e <a class="form__link" href="/">política de privacidade</a></label>
                 </div>
 
-                <div class="form__group">
-                    <button class="form__group-submit" type="submit">Enviar</button>
+                <div class="form__group form__groups--center">
+                    <button class="form__button-submit" type="submit">Enviar</button>
                 </div>
             </form>
 
