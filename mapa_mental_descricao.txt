@@ -14,3 +14,13 @@ Registra-se
 				4.termos = terms
 				-------divisor---------
 				5.botão enviar
+
+html {
+    font-size: 62.5%;
+    /*font-size: 10px;
+        10px = 100%
+        10px = 1rem
+        20px = 2rem
+            obs: padrão é 16px
+    */
+}
